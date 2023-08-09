@@ -11,7 +11,7 @@ export const item = product => {
       <p class="product__name js_product-name">${product.name}</p>
       ${
         product.description[0].text.length > 0
-          ? '<p class="text product__desc">' + product.description[0].text.slice(0, 80) + '...' + '</p>'
+          ? '<p class="text product__desc">' + product.description[0].text.slice(0, 60) + '...' + '</p>'
           : ''
       }
       <span class="product__price">
